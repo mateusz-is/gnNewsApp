@@ -8,12 +8,6 @@ let theme: Theme = createTheme({
 			dark: "#1e1e37",
 		},
 	},
-
-	mixins: {
-		toolbar: {
-			minHeight: 48,
-		},
-	},
 });
 
 theme = {
@@ -22,7 +16,8 @@ theme = {
 		MuiDrawer: {
 			styleOverrides: {
 				paper: {
-					backgroundColor: "#081627",
+					backgroundColor: "#161d24",
+					
 				},
 			},
 		},
@@ -49,18 +44,10 @@ theme = {
 			},
 		},
 
-		MuiIconButton: {
-			styleOverrides: {
-				root: {
-					padding: theme.spacing(1),
-				},
-			},
-		},
 		MuiListItemText: {
 			styleOverrides: {
 				primary: {
 					fontSize: 14,
-					fontWeight: theme.typography.fontWeightMedium,
 				},
 			},
 		},
